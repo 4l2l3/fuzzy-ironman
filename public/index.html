@@ -7,7 +7,7 @@
         margin: 0;
         margin-bottom: 25px;
         padding: 0;
-        background-color: #f0f0f0;
+        background-color: #737373;
         font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
         font-size: 13px;
         color: #333;
@@ -28,10 +28,10 @@
 
       #page {
         background-color: #f0f0f0;
-        width: 750px;
+        width: 1400px;
         margin: 0;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0;
+        margin-right: 0;
       }
 
       #content {
@@ -40,11 +40,11 @@
         border: 3px solid #aaa;
         border-top: none;
         padding: 25px;
-        width: 500px;
+        width: 1000px;
       }
 
       #sidebar {
-        float: right;
+        float: left;
         width: 175px;
       }
 
@@ -58,12 +58,6 @@
       }
 
 
-      #header {
-        background-image: url("assets/rails.png");
-        background-repeat: no-repeat;
-        background-position: top left;
-        height: 64px;
-      }
       #header h1, #header h2 {margin: 0}
       #header h2 {
         color: #888;
@@ -121,6 +115,8 @@
       #getting-started h1 {
         margin: 0;
         font-size: 20px;
+	text-align: center;
+
       }
       #getting-started h2 {
         margin: 0;
@@ -190,6 +186,7 @@
       <div id="sidebar">
         <ul id="sidebar-items">
           <li>
+	  <img src="logo_my_logo.jpg" width="50%" height="50%" >
             <h3>Browse the documentation</h3>
             <ul class="links">
               <li><a href="http://guides.rubyonrails.org/">Rails Guides</a></li>
@@ -203,33 +200,21 @@
 
       <div id="content">
         <div id="header">
-          <h1>Welcome aboard</h1>
-          <h2>You&rsquo;re riding Ruby on Rails!</h2>
-        </div>
-
-        <div id="about">
-          <h3><a href="rails/info/properties" onclick="about(); return false">About your application&rsquo;s environment</a></h3>
-          <div id="about-content" style="display: none"></div>
+          <h1>Working Title</h1>
+          <h2>A website brought to you by Andrew and Marleen!</h2>
         </div>
 
         <div id="getting-started">
-          <h1>Getting started</h1>
-          <h2>Here&rsquo;s how to get rolling:</h2>
-
+          <h1>Today's Comic Title</h1>
+	  <center><img src="wtf.jpg" ></center>
           <ol>
             <li>
-              <h2>Use <code>rails generate</code> to create your models and controllers</h2>
-              <p>To see all available options, run it without parameters.</p>
-            </li>
+              <h2>Today's Rant</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id odio nulla. Etiam justo lacus, ornare eu condimentum sit amet, laoreet quis mauris. Ut iaculis consectetur laoreet. Donec imperdiet, justo fringilla facilisis pulvinar, mi dolor ullamcorper diam, sed vestibulum nisl nisl vitae sem. Vestibulum id augue turpis, non placerat justo. Nunc varius puruas in mi gravida a posuere arcu rhoncus. Integer malesuada semper odio, nec congue ligula aliquam eu. Quisque faucibus tincidunt sem nec dictum.</p>
 
-            <li>
-              <h2>Set up a default route and remove <span class="filename">public/index.html</span></h2>
-              <p>Routes are set up in <span class="filename">config/routes.rb</span>.</p>
-            </li>
+	      <p>Sed eleifend tincidunt dolor sed imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam diam eros, varius at rhoncus a, pulvinar nec ligula. Donec id risus commodo nisl tempus ultricies vel vitae mauris. Vivamus malesuada metus eu justo lacinia quis facilisis velit congue. Curabitur vulputate dictum commodo. Nulla volutpat tortor quis nunc ornare eu pulvinar massa consequat. Nullam lectus lacus, dictum posuere sodales nec, gravida quis nulla. Phasellus eu pretium dolor. Nunc venenatis odio non arcu viverra at egestas ante congue. Suspendisse pharetra rhoncus nulla sed viverra. Cras feugiat pretium sollicitudin. Mauris pretium nunc leo, id sodales dui. Cras at magna lorem, vitae hendrerit erat. Mauris a libero justo, ac molestie elit. Proin sit amet sem enim.</p>
 
-            <li>
-              <h2>Create your database</h2>
-              <p>Run <code>rake db:create</code> to create your database. If you're not using SQLite (the default), edit <span class="filename">config/database.yml</span> with your username and password.</p>
+	      <p>Sed sodales varius volutpat. Suspendisse potenti. Morbi faucibus, tellus vitae mollis ornare, nunc odio aliquam eros, tincidunt mollis ante nibh adipiscing risus. Donec sed mi sem, at sodales nisl. Aliquam sed purus nisi. Etiam sem felis, condimentum eu pellentesque in, venenatis non nulla. Mauris tortor dui, pellentesque in fermentum eu, convallis et diam. Proin nec vulputate ante.</p>
             </li>
           </ol>
         </div>
